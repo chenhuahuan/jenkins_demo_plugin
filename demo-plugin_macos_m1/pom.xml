@@ -43,11 +43,12 @@
                     </dependency>
                 </dependencies>
                 <configuration>
-<!--                    <argLine>-->
-<!--&lt;!&ndash;                        &#45;&#45;add-opens java.base/java.lang=ALL-UNNAMED&ndash;&gt;-->
-<!--&lt;!&ndash;                        &#45;&#45;add-opens java.base/java.lang.reflect=ALL-UNNAMED&ndash;&gt;-->
-<!--                        &#45;&#45;add-opens java.base/java.util=ALL-UNNAMED-->
-<!--                    </argLine>-->
+                    <argLine>
+                        --add-opens java.base/java.lang=ALL-UNNAMED
+                        --add-opens java.base/java.lang.reflect=ALL-UNNAMED
+                        --add-opens java.base/java.util=ALL-UNNAMED
+                        --add-opens java.base/java.text=ALL-UNNAMED
+                    </argLine>
                     <skipTests>true</skipTests>
                 </configuration>
             </plugin>

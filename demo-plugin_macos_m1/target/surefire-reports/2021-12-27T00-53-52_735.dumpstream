@@ -1,6 +1,0 @@
-# Created at 2021-12-27T00:53:52.830
-Error: Could not find or load main class illegal-access=permit
-
-# Created at 2021-12-27T00:53:52.830
-Caused by: java.lang.ClassNotFoundException: illegal-access=permit
-
